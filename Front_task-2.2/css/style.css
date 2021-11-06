@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Mochiy Pop One;
+  text-align: center;
+}
+.main {
+  margin: 15px 25px 0 25px;
+}
+
+.header {
+  margin-bottom: 7px;
+  height: 60px;
+  width: 100%;
+}
+#logo {
+  float: left;
+  background-color: rgb(106, 184, 184);
+  height: 90%;
+  width: 23%;
+  border: 1px solid black;
+}
+#head {
+  background-color: rgb(106, 184, 184);
+  float: right;
+  height: 90%;
+  width: 76%;
+  border: 1px solid black;
+}
+.header ::before {
+  content: "";
+  display: block;
+  clear: both;
+}
+.primary {
+  width: 100%;
+  background-color: rgb(106, 184, 184);
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+.third {
+  width: 100%;
+  height: 200px;
+}
+#photo {
+  float: left;
+  width: 49.3%;
+  height: 93%;
+  background-color: rgb(106, 184, 184);
+  border: 1px solid black;
+}
+#photo p {
+  display: inline-block;
+  margin-top: 70px;
+}
+#prmess {
+  float: right;
+  width: 49.3%;
+  height: 93%;
+  background-color: rgb(106, 184, 184);
+  border: 1px solid black;
+}
+#prmess p {
+  display: inline-block;
+  margin-top: 70px;
+}
+.third ::before {
+  content: "";
+  display: block;
+  clear: both;
+}
+.fourth {
+  display: flex;
+  width: 100%;
+  height: 200px;
+}
+
+#smsgar {
+  /* float: left; */
+  width: 30%;
+  height: 90%;
+  background-color: rgb(106, 184, 184);
+  border: 1px solid black;
+}
+#smsgar p {
+  display: inline-block;
+  margin-top: 70px;
+}
+#secms {
+  /* float: right; */
+  margin: 0px 10px 0px 10px;
+  width: 40%;
+  height: 90%;
+  background-color: rgb(106, 184, 184);
+  border: 1px solid black;
+}
+#secms p {
+  display: inline-block;
+  margin-top: 70px;
+}
+#secmsg {
+  /* float: right; */
+  width: 30%;
+  height: 90%;
+  background-color: rgb(106, 184, 184);
+  border: 1px solid black;
+}
+#secmsg p {
+  display: inline-block;
+  margin-top: 70px;
+}
+.fourth ::before {
+  content: "";
+  display: block;
+  clear: both;
+}
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(106, 184, 184);
+  border: 1px solid black;
+}

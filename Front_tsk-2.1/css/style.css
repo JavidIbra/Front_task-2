@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Mochiy Pop One;
+  text-align: center;
+}
+
+.main {
+  margin: 15px 25px 0 25px;
+}
+.clear-fix {
+  clear: both;
+}
+
+.header {
+  margin-bottom: 10px;
+  height: 70px;
+  width: 100%;
+}
+#brand {
+  margin: 5px 0px 10px 0px;
+  float: left;
+  width: 77%;
+  height: 90%;
+  background-color: rgb(83, 104, 93);
+  border: 1px solid black;
+}
+#secure {
+  margin: 5px 0 9px 0;
+  float: right;
+  width: 21%;
+  height: 88%;
+  background-color: rgb(83, 104, 93);
+  border: 1px solid black;
+}
+.header ::before {
+  content: "";
+  display: block;
+  clear: both;
+}
+.second {
+  padding-bottom: 15px;
+  height: 49px;
+  width: 100%;
+  background-color: rgb(83, 104, 93);
+  border: 1px solid black;
+}
+.third {
+  margin-top: 10px;
+  height: 400px;
+}
+#scnnav {
+  float: left;
+  height: 50%;
+  width: 23%;
+  background-color: rgb(83, 104, 93);
+  border: 1px solid black;
+}
+#scnnav p {
+  margin-top: 35%;
+}
+#pgt {
+  float: center;
+  display: inline-block;
+  height: 50px;
+  width: 57%;
+  margin: 0 10px 10px 10px;
+  background-color: rgb(83, 104, 93);
+  border: 1px solid black;
+}
+#cstms {
+  background-color: rgb(83, 104, 93);
+  float: right;
+  width: 17%;
+  height: 50px;
+  border: 1px solid black;
+}
+#apfrm {
+  background-color: rgb(83, 104, 93);
+  float: right;
+  width: 75.5%;
+  height: 80%;
+  border: 1px solid black;
+}
+#apfrm P {
+  display: inline-block;
+  margin-top: 15%;
+}
+.footer {
+  height: 63px;
+  background-color: rgb(83, 104, 93);
+  width: 100%;
+  border: 1px solid black;
+}
+.footer P {
+  position: absolute;
+  display: inline-block;
+  margin-bottom: 30px 0 0;
+}
